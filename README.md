@@ -1,2 +1,2 @@
 # cock-twitch
-Cock Twitch site (https://cocktwitch.neocities.org/)
+Github for the Cock Twitch site (long story)
