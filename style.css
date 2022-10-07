@@ -1,0 +1,117 @@
+@font-face {
+    font-family: "ArtDystopia";
+    src: url("/ArtDystopia.woff") format('woff');
+}
+
+@font-face {
+    font-family: "Posyden";
+    src: url("/Posyden.woff") format('woff');
+}
+
+h1 {
+  font-family: 'ArtDystopia', cursive;
+  color: white;
+  font-size: 400%;
+}
+p, ul {
+  color: white;
+  font-size: 200%;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+.left-list {
+  list-style-type: none;
+}
+
+
+a {
+  color: #D0003E;
+}
+
+.top-bar {
+  width: 80%;
+  color: var(--main-color);
+  margin: auto;
+    margin-top: auto;
+  margin-top: 1%;
+  text-align: center;
+}
+
+.header-div {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.banner-div {
+}
+
+.banner {
+  text-align: center;
+  font-size: 350%;
+  margin: auto 3% auto 3%;
+  display: inline;
+  vertical-align: top;
+}
+
+.footer-div {
+  max-width: 950px;
+  margin: auto;
+  overflow: auto;
+}
+
+.top-bar{
+  width: 80%;
+  margin: auto;
+  margin-top: 1%;
+  text-align: center;
+}
+
+.logo {
+  max-width: 100px;
+  max-height: 100px;
+  display: block;
+  margin: 0 auto;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+
+hr {
+  color: white;
+}
+
+.bar-button,.tax-button,.back-button,.forward-button {
+  text-decoration: none;
+  margin: auto 1% auto 1%;
+}
+
+.bar-button:before {
+    content: '(';
+}
+
+.bar-button:after {
+    content: ')';
+}
+
+::selection {
+  background: white; /* WebKit/Blink Browsers */
+  color: black;
+}
+::-moz-selection {
+  background: white; /* Gecko Browsers */
+  color: black;
+}
+
+body {
+  font-family: 'Posyden', sans-serif;
+  background-color: black;
+  max-width: 900px;
+  margin: auto;
+  margin-top: auto;
+  margin-top: 10px;
+}
